@@ -27,5 +27,5 @@ export default function RootLayout({
     </html>
   )
 }
-<audio ref={audioRef} src="/audio/background-music.mp3" loop className="hidden" />
+
 
