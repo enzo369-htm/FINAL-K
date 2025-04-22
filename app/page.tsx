@@ -256,3 +256,20 @@ export default function Home() {
     </main>
   )
 }
+// page.tsx
+
+import React from 'react';
+
+const Page = () => {
+  return (
+    <div>
+      <h1>Bienvenido a la página principal</h1>
+      <audio controls>
+        <source src="/audio/Background-music.mp3" type="audio/mp3" />
+        Tu navegador no soporta el elemento de audio.
+      </audio>
+    </div>
+  );
+};
+
+export default Page;
